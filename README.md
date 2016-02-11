@@ -10,9 +10,10 @@ Much of the time, the things that I learn are just secondary knowledge that I ge
 
 ### Categories
 
-* [C#](#C)
+* [C#](#c)
 * [Git](#git)
 * [Javascript](#javascript)
+* [Markdown](#markdown)
 * [Mongo](#mongo)
 * [Powershell](#powershell)
 * [Visual Studio](#visual-studio)
@@ -29,6 +30,12 @@ Much of the time, the things that I learn are just secondary knowledge that I ge
 ---
 
 ### Javascript
+
+---
+
+### Markdown
+
+- [Escaping hash characters in Markdown](markdown/escaping-hash-characters-in-markdown.md)
 
 ---
 
