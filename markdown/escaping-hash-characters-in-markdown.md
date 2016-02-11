@@ -14,4 +14,4 @@ The easiest way to get around this is by adding a trailing space to the header.
 
 ### C\# 
 
-As another note, when you create a header, an anchor is automatically created that you can link to, but any special characters are ignored and it's also all lowercased.  So to link to the C\# header above, you would use `[C#](#c)` which results in [C#](#c).
+As another note, when you create a header, an anchor is automatically created that you can link to, but any special characters are ignored and it's also all lowercased.  The two headers above both have the same link name due to the ignored special character, so you have to use a numbered link name for anchor.  To link to the C# header above, you would use `[C#](#c-1)` which results in [C#](#c-1).
