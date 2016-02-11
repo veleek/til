@@ -10,17 +10,17 @@ Much of the time, the things that I learn are just secondary knowledge that I ge
 
 ### Categories
 
-* [C#](#C#)
+* [C#](#C)
 * [Git](#git)
 * [Javascript](#javascript)
 * [Mongo](#mongo)
 * [Powershell](#powershell)
-* [Visual Studio](#visual_studio)
+* [Visual Studio](#visual-studio)
 * [Windows](#windows)
 
 ---
 
-### C\#
+### C\# 
 
 ---
 
