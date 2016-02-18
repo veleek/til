@@ -1,3 +1,11 @@
+<!--
+  (c) 2016 Ben Randall (veleek@gmail.com)
+  Powershell Format Data for Outlook COM objects
+  
+  Usage:
+    Update-FormatData .\Outlook.Format.ps1xml
+-->
+
 <Configuration>
 
   <SelectionSets>
