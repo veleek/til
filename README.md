@@ -45,6 +45,8 @@ Much of the time, the things that I learn are just secondary knowledge that I ge
 
 ### Powershell
 
+- [Formatting the output of Outlook COM objects](powershell/formatting_the_output_of_outlook_com_objects.md)
+
 ---
 
 ### Visual Studio
