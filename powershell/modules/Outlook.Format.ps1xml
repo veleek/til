@@ -1,0 +1,214 @@
+<Configuration>
+
+  <SelectionSets>
+    <SelectionSet>
+      <Name>OutlookRuleActionTypes</Name>
+      <Types>
+        <TypeName>System.__ComObject#{000630cf-0000-0000-c000-000000000046}</TypeName>
+        <TypeName>System.__ComObject#{000630d0-0000-0000-c000-000000000046}</TypeName>
+        <TypeName>System.__ComObject#{000630d1-0000-0000-c000-000000000046}</TypeName>
+        <TypeName>System.__ComObject#{000630d2-0000-0000-c000-000000000046}</TypeName>
+        <TypeName>System.__ComObject#{000630d3-0000-0000-c000-000000000046}</TypeName>
+        <TypeName>System.__ComObject#{000630d4-0000-0000-c000-000000000046}</TypeName>
+        <TypeName>System.__ComObject#{000630d5-0000-0000-c000-000000000046}</TypeName>
+        <TypeName>System.__ComObject#{000630d6-0000-0000-c000-000000000046}</TypeName>
+        <TypeName>System.__ComObject#{000630d7-0000-0000-c000-000000000046}</TypeName>
+      </Types>
+    </SelectionSet>
+  </SelectionSets>
+
+
+  <ViewDefinitions>
+
+    
+  
+    <View>
+      <Name>OutlookSession</Name>
+      <ViewSelectedBy>
+        <SelectionSetName>OutlookRuleActionTypes</SelectionSetName>
+      </ViewSelectedBy>
+      
+      <TableControl>
+        <TableHeaders>
+
+          <TableColumnHeader>
+            <Label>Enabled</Label>
+            <Width>7</Width>
+            <Alignment>right</Alignment>
+          </TableColumnHeader>
+
+          <TableColumnHeader>
+            <Label>Class</Label>
+            <Width>5</Width>
+            <Alignment>right</Alignment>
+          </TableColumnHeader>
+
+          <TableColumnHeader>
+            <Label>Type</Label>
+            <Width>4</Width>
+            <Alignment>right</Alignment>
+          </TableColumnHeader>
+
+<!--           <TableColumnHeader>
+            <Label>Name</Label>
+          </TableColumnHeader> -->
+
+        </TableHeaders>
+
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+
+              <TableColumnItem>
+                <PropertyName>Enabled</PropertyName>
+              </TableColumnItem>
+
+              <TableColumnItem>
+                <PropertyName>Class</PropertyName>
+              </TableColumnItem>
+
+              <TableColumnItem>
+                <PropertyName>ActionType</PropertyName>
+              </TableColumnItem>
+
+              <!-- <TableColumnItem>
+                <PropertyName>Name</PropertyName>
+              </TableColumnItem> -->
+
+              <!-- <TableColumnItem>
+                <ScriptBlock>$_.Environments.Count</ScriptBlock>
+              </TableColumnItem> -->
+
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+      
+    </View>
+  
+<!--     <View>
+      <Name>OutlookSession</Name>
+      <ViewSelectedBy>
+        <TypeName>System.__ComObject#{00063002-0000-0000-c000-000000000046}</TypeName>
+      </ViewSelectedBy>
+    </View>
+
+    <View>
+      <Name>OutlookRuleCollection</Name>
+      <ViewSelectedBy>
+        <TypeName>System.__ComObject#{000630cc-0000-0000-c000-000000000046}</TypeName>
+      </ViewSelectedBy>
+    </View> -->
+
+
+    <View>
+      <Name>OutlookRule</Name>
+      <ViewSelectedBy>
+        <TypeName>System.__ComObject#{000630cd-0000-0000-c000-000000000046}</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+
+          <TableColumnHeader>
+            <Label>Enabled</Label>
+            <Width>7</Width>
+            <Alignment>right</Alignment>
+          </TableColumnHeader>
+
+          <TableColumnHeader>
+            <Label>Local</Label>
+            <Width>5</Width>
+            <Alignment>right</Alignment>
+          </TableColumnHeader>
+
+          <TableColumnHeader>
+            <Label>#</Label>
+            <Width>3</Width>
+            <Alignment>right</Alignment>
+          </TableColumnHeader>
+
+          <TableColumnHeader>
+            <Label>Name</Label>
+          </TableColumnHeader>
+
+        </TableHeaders>
+
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+
+              <TableColumnItem>
+                <PropertyName>Enabled</PropertyName>
+              </TableColumnItem>
+
+              <TableColumnItem>
+                <PropertyName>IsLocalRule</PropertyName>
+              </TableColumnItem>
+
+              <TableColumnItem>
+                <PropertyName>ExecutionOrder</PropertyName>
+              </TableColumnItem>
+
+              <TableColumnItem>
+                <PropertyName>Name</PropertyName>
+              </TableColumnItem>
+
+              <!-- <TableColumnItem>
+                <ScriptBlock>$_.Environments.Count</ScriptBlock>
+              </TableColumnItem> -->
+
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    
+        <View>
+      <Name>OutlookFolder</Name>
+      <ViewSelectedBy>
+        <TypeName>System.__ComObject#{00063006-0000-0000-c000-000000000046}</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+
+          <TableColumnHeader>
+            <Label>Items</Label>
+            <Width>12</Width>
+            <Alignment>right</Alignment>
+          </TableColumnHeader>
+
+          <TableColumnHeader>
+            <Label>Name</Label>
+            <Width>20</Width>
+          </TableColumnHeader>
+          
+          <TableColumnHeader>
+            <Label>FullPath</Label>
+          </TableColumnHeader>
+
+        </TableHeaders>
+
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+
+              <TableColumnItem>
+                <ScriptBlock>"$($_.UnReadItemCount)/$($_.Items.Count)"</ScriptBlock>
+              </TableColumnItem>
+
+              <TableColumnItem>
+                <PropertyName>Name</PropertyName>
+              </TableColumnItem>
+              
+              <TableColumnItem>
+                <PropertyName>FullFolderPath</PropertyName>
+              </TableColumnItem>
+
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+
+  </ViewDefinitions>
+</Configuration>
