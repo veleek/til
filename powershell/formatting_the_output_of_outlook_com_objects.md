@@ -1,4 +1,4 @@
- # Formatting the output of Outlook COM objects
+# Formatting the output of Outlook COM objects
 
 I was looking into using Powershell to manage/modify my Outlook rules since the built in rules editor is a pain to work with.  Working with Outlook is a completely different topic, but the basics are easy enough.  To get started:
 
