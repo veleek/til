@@ -23,6 +23,9 @@ Much of the time, the things that I learn are just secondary knowledge that I ge
 
 ### C\# 
 
+#### Caliburn.Micro
+- [Binding events with parameters](csharp/caliburn/binding_events_with_parameters.md)
+
 ---
 
 ### Git
@@ -46,7 +49,7 @@ Much of the time, the things that I learn are just secondary knowledge that I ge
 ### Powershell
 
 - [Formatting the output of Outlook COM objects](powershell/formatting_the_output_of_outlook_com_objects.md)
-- [Terminating vs Non-Terminating Errors](powershell/terminating_vs_nonterminating_errors)
+- [Terminating vs Non-Terminating Errors](powershell/terminating_vs_nonterminating_errors.md)
 
 ---
 
