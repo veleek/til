@@ -23,6 +23,10 @@ Much of the time, the things that I learn are just secondary knowledge that I ge
 
 ### C\# 
 
+#### UWP
+- [Loading package resource files deployed with application](csharp/uwp/loading_package_resource_files.md)
+- [Creating a UserControl](csharp/uwp/creating_a_user_control.md)
+
 #### Caliburn.Micro
 - [Binding events with parameters](csharp/caliburn/binding_events_with_parameters.md)
 
