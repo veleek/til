@@ -64,3 +64,5 @@ Much of the time, the things that I learn are just secondary knowledge that I ge
 ---
 
 ### Windows
+
+- [Enabling access to a machine with a DNS alias](windows/enable_access_to_a_machine_with_a_dns_alias.md)
