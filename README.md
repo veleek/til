@@ -26,6 +26,7 @@ Much of the time, the things that I learn are just secondary knowledge that I ge
 #### UWP
 - [Loading package resource files deployed with application](csharp/uwp/loading_package_resource_files.md)
 - [Creating a UserControl](csharp/uwp/creating_a_user_control.md)
+- [Data Binding](csharpe/uwp/data_binding.md)
 
 #### Caliburn.Micro
 - [Binding events with parameters](csharp/caliburn/binding_events_with_parameters.md)
@@ -60,6 +61,8 @@ Much of the time, the things that I learn are just secondary knowledge that I ge
 ---
 
 ### Visual Studio
+
+- [Getting started with the Multilingual App Toolkit (MAT)](vs/getting_started_with_the_multilingual_app_toolkit.md)
 
 ---
 
