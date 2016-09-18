@@ -63,6 +63,7 @@ Much of the time, the things that I learn are just secondary knowledge that I ge
 ### Visual Studio
 
 - [Getting started with the Multilingual App Toolkit (MAT)](vs/getting_started_with_the_multilingual_app_toolkit.md)
+- [Execute commands from a VS Extension](vs/execute_commands_from_a_vs_extension.md)
 
 ---
 
