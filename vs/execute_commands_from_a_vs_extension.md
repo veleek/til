@@ -2,6 +2,8 @@
 
 If you're like me and you've never created a Visual Studio extension before, it can be difficult to accomplish many of the simplest tasks.  Since macros have been removed from Visual Studio, I thought I'd see if I could create an extension to duplicate the behavior of one of the macros I used.  Part of this required executing an existing Visual Studio command.
 
+The complete code for this extension is available here: https://github.com/veleek/CollapseEverythingElse.
+
 ## What I'm trying to accomplish
 
 The previous few versions of Visual Studio removed support for macros, and while I generally didn't use macros, there was one thing I created a macro for that I found invaluable when spelunking through a large code base.  When working with a large file containing many methods and properties, I collapse everything to give myself a high level overview of the function and then F12 through bits and pieces to find the part I'm looking for or try and tease apart how the whole thing works.
