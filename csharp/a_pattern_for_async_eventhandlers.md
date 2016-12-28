@@ -2,7 +2,7 @@
 
 The [standard pattern for events in C#](https://msdn.microsoft.com/en-us/library/w369ty8x.aspx) is unfortunately not very friendly for use with asyncronous event handlers due to the fact that the built in [`EventHandler`](https://msdn.microsoft.com/en-us/library/system.eventhandler.aspx) delegate returns void, so there's no easy way to perform any asyncronous operation short of blocking the caller until you're complete.  
 
-While there's little we can do about existing code built around this pattern, it's possible to extend it a little bit so that we can take advantage of it in our code bases and build ourselves a foundation for more complete async event support in the future using a little bit of boilerplate.
+While there's little we can do about existing code built around this pattern, it's possible to extend it a little bit so that we can take advantage of it in our code bases and build ourselves a foundation for more complete async event support in the future using a little bit of boilerplate (skip down to [the boilerplate snippets](#boilerplate-snippets) at the bottom if you're not interested in seeing how this is all built up).
 
 ## Wishing for `async event` 
 
