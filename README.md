@@ -23,6 +23,8 @@ Much of the time, the things that I learn are just secondary knowledge that I ge
 
 ### C\# 
 
+- [A Pattern for Async EventHandlers](csharp/a_pattern_for_async_eventhandlers.md)
+
 #### UWP
 - [Loading package resource files deployed with application](csharp/uwp/loading_package_resource_files.md)
 - [Creating a UserControl](csharp/uwp/creating_a_user_control.md)
