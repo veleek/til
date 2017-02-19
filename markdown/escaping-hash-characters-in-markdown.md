@@ -10,7 +10,7 @@ So `### C\#` turns into:
 
 The easiest way to get around this is by adding a trailing space to the header.
 
-`### C\# `
+`### C\# ` <-- See it, see the space?
 
 ### C\# 
 
