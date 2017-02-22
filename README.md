@@ -16,9 +16,9 @@ Much of the time, the things that I learn are just secondary knowledge that I ge
 * [Markdown](#markdown)
 * [Mongo](#mongo)
 * [Powershell](#powershell)
+* [Unity](#unity)
 * [Visual Studio](#visual-studio)
 * [Windows](#windows)
-
 ---
 
 ### C\# 
@@ -59,6 +59,12 @@ Much of the time, the things that I learn are just secondary knowledge that I ge
 
 - [Formatting the output of Outlook COM objects](powershell/formatting_the_output_of_outlook_com_objects.md)
 - [Terminating vs Non-Terminating Errors](powershell/terminating_vs_nonterminating_errors.md)
+
+---
+
+### Unity
+
+- [Importing Heightmaps from GDEX into Unity](unity/importing-heightmaps-from-gdex.md)
 
 ---
 
