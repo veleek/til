@@ -1,6 +1,6 @@
-# Importing Heightmap Data from Global Data Explorer into Unity
+# Importing GDEX data into Unity
 
-1. Export data from GDEX (https://gdex.cr.usgs.gov/gdex/)
+1. Export data from GDEX (Global Data Explorer) (https://gdex.cr.usgs.gov/gdex/)
 2. Apply levels to data to make it a bit 'shorter'
 3. Save the image as a bitmap.
 4. Convert the bitmap to a RAW image
