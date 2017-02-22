@@ -13,43 +13,43 @@
     /// <returns>image as bytes</returns>
     private static byte[] ConvertBitmapToRaw(Bitmap bitmap)
     {
-      //Code excerpted from Microsoft Robotics Studio v1.5
-      BitmapData raw = null;  //used to get attributes of the image
-      byte[] rawImage = null; //the image as a byte[]
+        //Code excerpted from Microsoft Robotics Studio v1.5
+        BitmapData raw = null;  //used to get attributes of the image
+        byte[] rawImage = null; //the image as a byte[]
 
-      try
-      {
-        //Freeze the image in memory
-        raw = bitmap.LockBits(
-          new Rectangle(0, 0, (int)bitmap.Width, (int)bitmap.Height),
-          ImageLockMode.ReadOnly,
-          PixelFormat.Format8bppIndexed
-        );
-
-        int size = raw.Height * raw.Width;
-        rawImage = new byte[size];
-
-        int rem = raw.Width % 4;
-        int padding = rem == 0 ? 0 : 4 - rem;
-
-        int basePtr = raw.Scan0.ToInt32();
-        //Copy the image into the byte[]
-        for (int r = 0; r < raw.Height; r++)
+        try
         {
-          int srcOffset = r * (raw.Width + padding);
-          int dstOffset = r * raw.Width;
-          Marshal.Copy(new IntPtr(basePtr + srcOffset), rawImage, dstOffset, raw.Width);
+            //Freeze the image in memory
+            raw = bitmap.LockBits(
+                new Rectangle(0, 0, (int)bitmap.Width, (int)bitmap.Height),
+                ImageLockMode.ReadOnly,
+                PixelFormat.Format8bppIndexed
+            );
+
+            int size = raw.Height * raw.Width;
+            rawImage = new byte[size];
+
+            int rem = raw.Width % 4;
+            int padding = rem == 0 ? 0 : 4 - rem;
+
+            int basePtr = raw.Scan0.ToInt32();
+            //Copy the image into the byte[]
+            for (int r = 0; r < raw.Height; r++)
+            {
+                int srcOffset = r * (raw.Width + padding);
+                int dstOffset = r * raw.Width;
+                Marshal.Copy(new IntPtr(basePtr + srcOffset), rawImage, dstOffset, raw.Width);
+            }
         }
-      }
-      finally
-      {
-        if (raw != null)
+        finally
         {
-          //Unfreeze the memory for the image
-          bitmap.UnlockBits(raw);
+            if (raw != null)
+            {
+                //Unfreeze the memory for the image
+                bitmap.UnlockBits(raw);
+            }
         }
-      }
-      return rawImage;
+        return rawImage;
     }
     ```
     
