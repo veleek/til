@@ -10,9 +10,13 @@ Much of the time, the things that I learn are just secondary knowledge that I ge
 
 ### Categories
 
+* [Bash](bash)
 * [C#](#c)
+  * [UWP](#uwp)
+  * [Caliburn.Micro](#caliburn.micro)
 * [Git](#git)
 * [Javascript](#javascript)
+* [Linux](#linux)
 * [Markdown](#markdown)
 * [Mongo](#mongo)
 * [Powershell](#powershell)
@@ -41,6 +45,12 @@ Much of the time, the things that I learn are just secondary knowledge that I ge
 ---
 
 ### Javascript
+
+---
+
+### Linux
+
+- [Switching to a directory in bash using a path from a file](switch_to_a_directory_in_bash_using_a_path_from_a_file.md)
 
 ---
 
