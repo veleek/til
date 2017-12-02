@@ -50,7 +50,7 @@ Much of the time, the things that I learn are just secondary knowledge that I ge
 
 ### Linux
 
-- [Switching to a directory in bash using a path from a file](switch_to_a_directory_in_bash_using_a_path_from_a_file.md)
+- [Switch to a directory in bash using a path from a file](linux/switch_to_a_directory_in_bash_using_a_path_from_a_file.md)
 
 ---
 
