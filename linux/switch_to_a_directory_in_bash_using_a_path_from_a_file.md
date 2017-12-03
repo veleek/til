@@ -38,15 +38,15 @@ $ cd `echo ~/some/path`
 Now I've got a `.egg-link` file which points to the folder that I want to navigate to.  I can easily use the `cat` command to dump the output.
 
 ```bash
-(venv) pi@raspberrypi:~/src/home-assistant/venv/lib/python3.5/site-packages $ cat python-openzwave.egg-link
+$ cat python-openzwave.egg-link
 /home/pi/src/python-openzwave
-.(venv) pi@raspberrypi:~/src/home-assistant/venv/lib/python3.5/site-packages $
+.$
 ```
 
 You might have already spotted the problem that I'm going to run into based on this output, but lets step through the whole thing.  My first attempt was simple:
 
 ```bash
-(venv) pi@raspberrypi:~/src/home-assistant/venv/lib/python3.5/site-packages $ cd $(cat python-openzwave.egg-link)
+$ cd $(cat python-openzwave.egg-link)
 -bash: cd: too many arguments
 ```
 
@@ -55,13 +55,14 @@ Hmmm... it doesn't LOOK like too many arguments.  Oh wait, there's actually a se
 Okay, so I need some way to pull out just the first line of the file and we can accomplish this pretty easily:
 
 ```bash
-(venv) pi@raspberrypi:~/src/home-assistant/venv/lib/python3.5/site-packages $ head -1 python-openzwave.egg-link
+$ head -1 python-openzwave.egg-link
 /home/pi/src/python-openzwave
 ```
 
 Now  we can add this to our command to get the result that we want:
 
 ```bash
-(venv) pi@raspberrypi:~/src/home-assistant/venv/lib/python3.5/site-packages $ cd $(head -1 python-openzwave.egg-link)
-(venv) pi@raspberrypi:~/src/python-openzwave $
+$ cd $(head -1 python-openzwave.egg-link)
+$ pwd
+/home/pi/src/python-openzwave
 ```
