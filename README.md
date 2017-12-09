@@ -20,6 +20,7 @@ Much of the time, the things that I learn are just secondary knowledge that I ge
 * [Markdown](#markdown)
 * [Mongo](#mongo)
 * [Powershell](#powershell)
+* [Python](#python)
 * [Unity](#unity)
 * [Visual Studio](#visual-studio)
 * [Windows](#windows)
@@ -70,6 +71,12 @@ Much of the time, the things that I learn are just secondary knowledge that I ge
 
 - [Formatting the output of Outlook COM objects](powershell/formatting_the_output_of_outlook_com_objects.md)
 - [Terminating vs Non-Terminating Errors](powershell/terminating_vs_nonterminating_errors.md)
+
+---
+
+### Python
+
+- [`pip install` missing SSL in a Virtual Environment](python/pip_install_missing_ssl_in_virtual_environment.md)
 
 ---
 
