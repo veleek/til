@@ -1,8 +1,8 @@
 # `pip install` missing SSL module when inside a virtual environment
 
-If you're attempting to use Python's virtual environments on windows there's a chance that you may run into this error 
+If you're attempting to use Python's virtual environments on windows there's a chance that you may see this warning 
 
- pip is configured with locations that require TLS/SSL, however the ssl module in Python is not available.
+    pip is configured with locations that require TLS/SSL, however the ssl module in Python is not available.
  
 while trying to install additional modules using `pip` and then the installation will fail.  In general `pip` should work perfectly fine with a default python installation, so there's likely something wrong with the virtual environment configuration.  You can confirm this by launching python from inside and outside you virtual environment and running the following command:
 
