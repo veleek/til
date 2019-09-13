@@ -8,7 +8,7 @@ Much of the time, the things that I learn are just secondary knowledge that I ge
 
 ===
 
-### Categories
+## Categories
 
 * [Bash](bash)
 * [C#](#c)
@@ -29,15 +29,17 @@ Much of the time, the things that I learn are just secondary knowledge that I ge
 
 ### C\# 
 
-- [A Pattern for Async EventHandlers](csharp/a_pattern_for_async_eventhandlers.md)
+* [A Pattern for Async EventHandlers](csharp/a_pattern_for_async_eventhandlers.md)
 
 #### UWP
-- [Loading package resource files deployed with application](csharp/uwp/loading_package_resource_files.md)
-- [Creating a UserControl](csharp/uwp/creating_a_user_control.md)
-- [Data Binding](csharpe/uwp/data_binding.md)
+
+* [Loading package resource files deployed with application](csharp/uwp/loading_package_resource_files.md)
+* [Creating a UserControl](csharp/uwp/creating_a_user_control.md)
+* [Data Binding](csharpe/uwp/data_binding.md)
 
 #### Caliburn.Micro
-- [Binding events with parameters](csharp/caliburn/binding_events_with_parameters.md)
+
+* [Binding events with parameters](csharp/caliburn/binding_events_with_parameters.md)
 
 ---
 
@@ -47,52 +49,54 @@ Much of the time, the things that I learn are just secondary knowledge that I ge
 
 ### Javascript
 
+* [Testing npm packages locally](js/testing_npm_packages_locally.md)
+
 ---
 
 ### Linux
 
-- [Switch to a directory in bash using a path from a file](linux/switch_to_a_directory_in_bash_using_a_path_from_a_file.md)
+* [Switch to a directory in bash using a path from a file](linux/switch_to_a_directory_in_bash_using_a_path_from_a_file.md)
 
 ---
 
 ### Markdown
 
-- [Escaping hash characters in Markdown](markdown/escaping-hash-characters-in-markdown.md)
+* [Escaping hash characters in Markdown](markdown/escaping-hash-characters-in-markdown.md)
 
 ---
 
 ### Mongo
 
-- [Replica set member case sensitivity](mongo/replica_set_member_case_sensitivity.md)
+* [Replica set member case sensitivity](mongo/replica_set_member_case_sensitivity.md)
 
 ---
 
 ### Powershell
 
-- [Formatting the output of Outlook COM objects](powershell/formatting_the_output_of_outlook_com_objects.md)
-- [Terminating vs Non-Terminating Errors](powershell/terminating_vs_nonterminating_errors.md)
+* [Formatting the output of Outlook COM objects](powershell/formatting_the_output_of_outlook_com_objects.md)
+* [Terminating vs Non-Terminating Errors](powershell/terminating_vs_nonterminating_errors.md)
 
 ---
 
 ### Python
 
-- [`pip install` missing SSL in a Virtual Environment](python/pip_install_missing_ssl_in_virtual_environment.md)
+* [`pip install` missing SSL in a Virtual Environment](python/pip_install_missing_ssl_in_virtual_environment.md)
 
 ---
 
 ### Unity
 
-- [Importing Heightmaps from GDEX into Unity](unity/importing-heightmaps-from-gdex.md)
+* [Importing Heightmaps from GDEX into Unity](unity/importing-heightmaps-from-gdex.md)
 
 ---
 
 ### Visual Studio
 
-- [Getting started with the Multilingual App Toolkit (MAT)](vs/getting_started_with_the_multilingual_app_toolkit.md)
-- [Execute commands from a VS Extension](vs/execute_commands_from_a_vs_extension.md)
+* [Getting started with the Multilingual App Toolkit (MAT)](vs/getting_started_with_the_multilingual_app_toolkit.md)
+* [Execute commands from a VS Extension](vs/execute_commands_from_a_vs_extension.md)
 
 ---
 
 ### Windows
 
-- [Enabling access to a machine with a DNS alias](windows/enable_access_to_a_machine_with_a_dns_alias.md)
+* [Enabling access to a machine with a DNS alias](windows/enable_access_to_a_machine_with_a_dns_alias.md)
