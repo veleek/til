@@ -1,0 +1,10 @@
+name: Update TIL Index
+on: [push]
+
+jobs: 
+  build:
+    name: Greeting
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo the greeting's time
+        run: echo 'The time was ${{ steps.hello.outputs.time }}.'
