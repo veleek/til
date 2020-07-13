@@ -6,5 +6,13 @@ jobs:
     name: Greeting
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: Echo the greeting's time
         run: echo 'The time was ${{ steps.hello.outputs.time }}.'
+      - name: Do some powershell
+        shell: pwsh
+        run: |
+          Write-Host "This is a test" -Foreground Green
+          Get-Date | Out-Host
+          pwd
+          dir
