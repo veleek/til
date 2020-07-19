@@ -19,8 +19,8 @@ function Get-TilInfo()
     $tilFiles = Get-ChildItem . -Recurse -Filter *.md | ? { $_.DirectoryName -ne $PSScriptRoot}
     foreach($tilFile in $tilFiles)
     {
-        $path = $tilFile.FullName.Replace("$($PSScriptRoot)\", "").Replace("\", "/")
-        $categoryParts = (Split-Path -Parent $path) -split "/" -split "\\"
+        $path = $tilFile.FullName.Replace("\", "/").Replace("$($PSScriptRoot)/", "")
+        $categoryParts = (Split-Path -Parent $path) -split "/"
         $category = $categoryLookup[$categoryParts[0] ?? ""]
         $subCategory = $categoryLookup[$categoryParts[1] ?? ""]
         $title = (Get-Content $tilFile -TotalCount 1).TrimStart("# ")
