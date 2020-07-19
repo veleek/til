@@ -5,7 +5,7 @@ on:
 
 jobs: 
   build:
-    name: Greeting
+    name: Generate updated TIL index
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
@@ -14,7 +14,8 @@ jobs:
         shell: pwsh
         run: |
           Write-Host "Updating README" -Foreground Green
-          Update-Readme.ps1
+          dir | out-host
+          .\Update-Readme.ps1
           cat README.md
 #      - name: Commit README if changed
 #        run: |-
