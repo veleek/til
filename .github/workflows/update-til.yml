@@ -1,18 +1,25 @@
 name: Update TIL Index
-on: [push]
+on: 
+  push:
+  workflow_dispatch:
 
 jobs: 
   build:
     name: Greeting
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Echo the greeting's time
-        run: echo 'The time was ${{ steps.hello.outputs.time }}.'
-      - name: Do some powershell
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+      - name: Update README
         shell: pwsh
         run: |
-          Write-Host "This is a test" -Foreground Green
-          Get-Date | Out-Host
-          pwd
-          dir
+          Write-Host "Updating README" -Foreground Green
+          Update-Readme.ps1
+          cat README.md
+#      - name: Commit README if changed
+#        run: |-
+#          git diff
+#          git config --global user.email "readme-bot@example.com"
+#          git config --global user.name "README-bot"
+#          git diff --quiet || (git add README.md && git commit -m "Updated README")
+#          git push
