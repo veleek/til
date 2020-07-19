@@ -14,13 +14,12 @@ jobs:
         shell: pwsh
         run: |
           Write-Host "Updating README" -Foreground Green
-          dir | out-host
           .\Update-Readme.ps1
           cat README.md
-#      - name: Commit README if changed
-#        run: |-
-#          git diff
-#          git config --global user.email "readme-bot@example.com"
-#          git config --global user.name "README-bot"
-#          git diff --quiet || (git add README.md && git commit -m "Updated README")
-#          git push
+      - name: Commit README if changed
+        run: |-
+          git diff
+          git config --global user.email "readme-bot@example.com"
+          git config --global user.name "README-bot"
+          git diff --quiet || (git add README.md && git commit -m "Updated README")
+          git push
