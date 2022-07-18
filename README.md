@@ -49,6 +49,7 @@ Much of the time, the things that I learn are just secondary knowledge that I ge
 
 ### Linux
 
+* [Accessing Rancher Desktop from WSL](linux/accessing_rancher_desktop_from_wsl.md)
 * [Switch to a directory using a path from a file](linux/switch_to_a_directory_in_bash_using_a_path_from_a_file.md)
 
 ---
@@ -96,5 +97,6 @@ Much of the time, the things that I learn are just secondary knowledge that I ge
 * [Enable access to a machine using a DNS Alias](windows/enable_access_to_a_machine_with_a_dns_alias.md)
 
 <!-- index ends -->
+
 
 
